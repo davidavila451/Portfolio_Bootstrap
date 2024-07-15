@@ -23,3 +23,31 @@ body{
 .navbar-dark .navbar-nav .nav-link:hover{
     color: darkgray;
 }
+
+.dirTab i{
+    color: black;
+    background-color: red;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.fa-linkedin{
+    font-size: 40px;
+}
+
+.fa-github{
+    font-size: 36px;
+}
+
+.fa-id-card, .fa-home{
+    font-size: 31px;
+}
+
+.dirCont{
+    position: fixed;
+    left: auto;
+    right: 5px;
+    top: 45vh;
+    z-index: 25;
+    width: fit-content;
+}
