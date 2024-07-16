@@ -31,16 +31,46 @@ body{
     padding: 3px;
 }
 
+.dirTab{
+    position: relative;
+    float: right;
+    right:-45px;
+}
+
 .fa-linkedin{
     font-size: 40px;
+    transition: ease-in-out 0.2s;
+    transform-origin: top right;
+}
+
+.fa-linkedin:hover{
+    cursor: pointer;
+    font-size: 50px;
+    transition: ease-in-out 0.2s;
 }
 
 .fa-github{
     font-size: 36px;
+    transition: ease-in-out 0.2s;
+}
+
+.fa-github:hover{
+    cursor: pointer;
+    font-size: 46px;
+    transition: ease-in-out 0.2s;
+    transform-origin: top right;
 }
 
 .fa-id-card, .fa-home{
     font-size: 31px;
+    transition: ease-in-out 0.2s;
+}
+
+.fa-id-card:hover, .fa-home:hover{
+    cursor: pointer;
+    font-size: 41px;
+    transition: ease-in-out 0.2s;
+    transform-origin: top right;
 }
 
 .dirCont{
@@ -50,4 +80,40 @@ body{
     top: 45vh;
     z-index: 25;
     width: fit-content;
+}
+
+/*** Font Styles ***/
+h1{
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+h2{
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+p{
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+a{
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px
+}
+
+.navbar-brand{
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
 }
