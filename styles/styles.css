@@ -4,6 +4,11 @@ body{
     background-size: cover;
 }
 
+.sec2Home{
+    background-color:silver;
+    border-radius:25px;
+}
+
 .lightFont{
     color: white;
 }
@@ -34,7 +39,7 @@ body{
 
 .dirTab i{
     color: black;
-    background-color: red;
+    background-color: silver;
     border-radius: 3px;
     padding: 3px;
 }
@@ -116,7 +121,7 @@ a{
     font-family: "Patrick Hand SC", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px
+    font-size: 20px;
 }
 
 .navbar-brand{
