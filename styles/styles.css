@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(180deg, red 0%, black 40%);
+    background-image:radial-gradient(at 50% 30%, silver 0%, black 80%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,11 +9,15 @@ body{
 }
 
 .tickets{
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 15px;
     padding: 3px 15px;
-    background-color: red;
+    background-color: silver;
     margin-top: -5px;
+}
+
+.tickets a{
+    color: black !important;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -22,6 +26,10 @@ body{
 
 .navbar-dark .navbar-nav .nav-link:hover{
     color: darkgray;
+}
+
+.navbarContainer{
+    background-color: black;
 }
 
 .dirTab i{
