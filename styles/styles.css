@@ -1,3 +1,8 @@
+/*** Colors ***/
+/* Gray: #9c9c9c
+/* Dark Gray: #3d3d3d
+/**************/
+
 body{
     background-image:radial-gradient(at 50% 30%, silver 0%, black 80%);
     background-repeat: no-repeat;
@@ -25,12 +30,24 @@ body{
     color: black !important;
 }
 
+.activeTickets{
+    border: 3px solid silver;
+    border-radius: 15px;
+    padding: 3px 15px;
+    background-color: black;
+    margin-top: -5px;
+}
+
+.activeTickets a{
+    color: white !important;
+}
+
 .navbar-dark .navbar-nav .nav-link{
-    color: lightgray;
+    color: #9c9c9c;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-    color: darkgray;
+    color: #3d3d3d;
 }
 
 .navbarContainer{
