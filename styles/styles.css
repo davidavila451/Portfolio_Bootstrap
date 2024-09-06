@@ -118,6 +118,13 @@ h2{
     font-size: 32px;
 }
 
+h3{
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
 p{
     font-family: "Patrick Hand SC", cursive;
     font-weight: 400;
@@ -130,6 +137,22 @@ a{
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    color: black;
+}
+
+button{
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    transition: 0.3s
+}
+
+button:hover{
+    border: 3px solid silver;
+    background-color: black;
+    color: white;
+    transition: 0.3s
 }
 
 .navbar-brand{
