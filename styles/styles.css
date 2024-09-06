@@ -5,7 +5,8 @@ body{
 }
 
 .row{
-    width: 100vw !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .sec3Home{
@@ -141,6 +142,10 @@ a{
 }
 
 button{
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
     border-radius: 15px;
     background-color: white;
     border: 3px solid black;
